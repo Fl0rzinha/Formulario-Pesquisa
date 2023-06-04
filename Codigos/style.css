@@ -1,0 +1,39 @@
+body {
+    margin-top: 180px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa input {
+    width: 500px;
+    padding: 14px;
+    border-radius: 24px;
+    border: solid 2px lightgrey;
+    font-size: 14px;
+}
+
+form input:focus {
+    background-color: aliceblue;
+}
+
+.botao input {
+    border-radius: 5px;
+    padding: 9px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: lightgrey;
+}
